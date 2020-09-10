@@ -61,4 +61,6 @@
 /(mnt/vendor/persist|persist)/chargeonly(/.*)?           u:object_r:persist_chargeonly_file:s0
 /(vendor|system/vendor)/bin/charge_only_mode             u:object_r:charge_only_exec:s0
 
+# FPS Info
+/sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
 
